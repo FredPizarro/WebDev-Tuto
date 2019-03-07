@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  wsURL: 'http://localhost:4300' /* URL connection to s-server */
 };
 
 /*

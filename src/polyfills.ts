@@ -61,3 +61,10 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+
+ /* Corrigiendo error :
+ Uncaught ReferenceError: global is not defined
+    at Object../node_modules/socket.io-parser/is-buffer.js
+ */
+(window as any).global = window;

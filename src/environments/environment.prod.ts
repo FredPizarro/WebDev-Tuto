@@ -1,3 +1,5 @@
+
 export const environment = {
-  production: true
+  production: true,
+  wsURL: 'http://localhost:4300' /* URL connection to s-server */
 };

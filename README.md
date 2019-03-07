@@ -13,6 +13,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Code scaffolding
 
 - `ng g s services/websocket --spec false`
+-`ng g cl socketIO.config --flet --spec=false`
 
 ## Build
 

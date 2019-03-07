@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+/* Socket (cd s-server) */
+import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
+import { socketConfig } from './socket-io.config';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +12,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SocketIoModule.forRoot(socketConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
