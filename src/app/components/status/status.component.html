@@ -1,0 +1,5 @@
+
+<div class="status">
+  <div class="online" *ngIf="websocket.socketStatus" >Online</div>
+  <div class="offline" *ngIf="!websocket.socketStatus" >Offline</div>
+</div>

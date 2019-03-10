@@ -1,6 +1,15 @@
 {
     "extends": "../tslint.json",
     "rules": {
+        "one-line": false,
+        "whitespace": [
+            false,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+          ],
         "directive-selector": [
             true,
             "attribute",

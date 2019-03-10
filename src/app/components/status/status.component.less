@@ -1,0 +1,16 @@
+
+.status{
+    .online::after,.offline::after{
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        margin-left: 3px; margin-top: 4px;
+        border-radius: 50%;
+        background: #1DE9B6;
+    }
+
+    .offline::after{
+        background: #F50057;
+    }
+}
